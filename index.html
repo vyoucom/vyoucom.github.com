@@ -1,44 +1,93 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <style>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="vyoucom.github.com : vyou static page" />
+        table,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;background:transparent;position:relative;}
+        div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,caption{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;display:block;position:relative;}
+        body{line-height:1;margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}ol,ul{list-style:none;}blockquote,q{quotes:none;}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}:focus{outline:0;}ins{text-decoration:none;}del{text-decoration:line-through;}table{border-collapse:collapse;border-spacing:0;}
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+        @font-face{
+          font-weight: normal;
+          font-style: normal;
+          font-family: 'sanukwebregular';
+          src: url('/css/sanukweb-regular.eot');
+          src: url('/css/sanukweb-regular.eot?#iefix') format('embedded-opentype'),
+               url('/css/sanukweb-regular.ttf') format('truetype'),
+             url('http://cdn-graphics.vyou.com/font/sanukweb-regular.svg#sanukweb-regular') format('svg');
+        }
 
-    <title>vyoucom.github.com</title>
-  </head>
+        @font-face {
+          font-weight: normal;
+          font-style: normal;
+          font-family: 'sanukwebmedium';
+          src: url('/css/sanukweb-medium.eot');
+          src: url('/css/sanukweb-medium.eot?#iefix') format('embedded-opentype'),
+             url('/css/sanukweb-medium.ttf') format('truetype'),
+             url('http://cdn-graphics.vyou.com/font/sanukweb-medium.svg#sanukweb-medium') format('svg');
+        }
 
-  <body>
+        body {
+          text-align: center;
+          font-family: sanukwebregular, sans-serif;
+          background: #f4f4f4;
+          text-align: center;
+        }
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/vyoucom">View on GitHub</a>
+        p {
+          font-size: 21px;
+          margin: 32px 0;
+          max-width: 488px;
+          padding: 0 20px;
+          line-height: 1.2;
+        }
 
-          <h1 id="project_title">vyoucom.github.com</h1>
-          <h2 id="project_tagline">vyou static page</h2>
+        a {
+          font-size: inherit;
+          color: #0c8abf;
+          display: inline;
+          text-decoration: none;
+        }
 
-        </header>
-    </div>
+        .center-inner {
+          display: inline-block;
+          padding-top: 20%;
+        }
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>test</p>
-      </section>
-    </div>
+        .b {
+          font-family: sanukwebmedium, sans-serif;
+          margin: 0;
+        }
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+        img {
+          width: 90%;
+          max-width: 488px;
+          margin-left: 5%;
+          margin-right: 5%;
+        }
 
-    
 
-  </body>
+        </style>
+    </head>
+    <body>
+      <div class="center-outer">
+        <div class="center-inner">
+          <img src="/images/graphics/sad-logo.png" />
+          <p>Sadly, VYou shut down on April 5th.</p>
+          <p>A big thanks to our community for all your dedication and love. We'll be in touch.</p>
+          <p>If you'd like to receive all of your videos, please go through the steps <a href="http://help.vyou.com/customer/portal/articles/1070744-instructions-for-getting-your-videos">outlined here</a>.</p>
+          <p>If you're interested in licensing the VYou software, please email us at <a href="mailto:bizdev@vyou.com">bizdev@vyou.com</a>.</p>
+          <p class="b" >Much Love,</p>
+          <p class="b" >The VYou Team</p>
+        </div>
+      </div>
+    </body>
 </html>
